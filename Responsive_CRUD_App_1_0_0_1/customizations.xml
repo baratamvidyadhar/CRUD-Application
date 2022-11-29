@@ -1,0 +1,78 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>cr2b5_navigation_d7946</Name>
+      <AppVersion>2022-11-06T10:05:07Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.22104.22.0</CreatedByClientVersion>
+      <MinClientVersion>3.22104.22.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"150","primaryDeviceHeight":"640","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","publisherVersion":"3.22104.22","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false","sienaVersion":"20221102T112814Z-3.22104.18.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(251,101,60,255)</BackgroundColor>
+      <DisplayName>navigation_</DisplayName>
+      <Description>Added the rectangle shape and change fill to transparent and on onselect written the navigation formula</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[{"appComponentName":"c899e591c12d484ca288891c2b63e859","displayName":"navigation","appName":"96101b20-3195-4e91-934a-5799d2bbbc05","appVersion":"2022-11-06T10:05:07Z","appComponentLibraryLogicalName":"cr2b5_navigation_d7946","appDisplayName":"navigation_","environmentName":"default-e4b834d1-4ab9-4e19-8088-2ca100ef15d2","owner":{"id":"9809e69c-5adb-4baa-8f56-a97aef5e297b","displayName":"Baratam Vidyadhar","email":"BaratamVidyadhar@Avinz.onmicrosoft.com","type":"User","tenantId":"e4b834d1-4ab9-4e19-8088-2ca100ef15d2","userPrincipalName":"BaratamVidyadhar@Avinz.onmicrosoft.com"},"allowCustomization":true,"createdOn":"2022-11-02T08:45:42.516Z","lastModifiedOn":"2022-11-06T10:04:51.897Z","connectionReferences":{},"databaseReferences":{}}]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>1</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/cr2b5_navigation_d7946_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/cr2b5_navigation_d7946_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+    <CanvasApp>
+      <Name>bv_responsivecurdapp_43e9f</Name>
+      <AppVersion>2022-11-08T09:45:46Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.22105.21.0</CreatedByClientVersion>
+      <MinClientVersion>3.22105.21.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22105.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20221108T094546Z-3.22105.21.0"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>Responsive_CRUD_App</DisplayName>
+      <Description>Added the admin request module</Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"e3f2eee2-81b1-4404-b3d6-5cce5cafe75c":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1607/1.0.1607.3068/sharepointonline/icon.png","dataSources":["CURD"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://avinz.sharepoint.com/sites/product_return_database":{"dataSources":{"CURD":{"tableName":"9e4fb507-7256-48d8-ba9f-565897abd91e"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"5275fa3d-9297-4be3-acb4-fef4cf27dd02":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1607/1.0.1607.3068/sharepointonline/icon.png","dataSources":["delete_premission_table"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://avinz.sharepoint.com/sites/product_return_database":{"dataSources":{"delete_premission_table":{"tableName":"5fcc384f-12d0-4050-9b68-1d5da0f5755c"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"0a0a7d56-092a-4a9a-956b-b6bd49b571c4":{"id":"/providers/microsoft.powerapps/apis/shared_office365","displayName":"Office 365 Outlook","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/office365/icon.png","dataSources":["Office365Outlook"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["SendEmailV2"]}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[{"appComponentName":"c899e591c12d484ca288891c2b63e859","appName":"8610621c-c73b-4c5b-9aa6-a1646efd4c3b","appComponentLibraryName":"96101b20-3195-4e91-934a-5799d2bbbc05","appComponentLibraryVersion":"2022-11-06T10:05:07Z","appComponentLibraryLogicalName":"cr2b5_navigation_d7946","environmentName":"default-e4b834d1-4ab9-4e19-8088-2ca100ef15d2"}]</AppComponentDependencies>
+      <CanConsumeAppPass>1</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[{"logicalname":"cr2b5_navigation_d7946","componenttype":300,"componenttypeplatformname":"CanvasApp"}]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/bv_responsivecurdapp_43e9f_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/bv_responsivecurdapp_43e9f_DocumentUri.msapp</DocumentUri>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
